@@ -2,10 +2,57 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
+    <%- include('./template/all') -%>
+    
+    <!-- Page Required -->
+    <link rel='stylesheet' href='/stylesheets/pages/index.css' />
+    <script language="javascript" src="/javascripts/pages/index.js"></script>
+
+		<!-- Pagepiling Required -->
+		<link rel="stylesheet" href="/stylesheets/pagepiling/jquery.pagepiling.min.css"/>
+    <script language="javascript" src="/javascripts/pagepiling/jquery.min.js"></script>
+    <script language="javascript" src="/javascripts/pagepiling/jquery.pagepiling.min.js"></script>
+    
+    
   </head>
   <body>
     <%- include('./template/header') -%>
-    <a href="/about">About</a>
+
+    <button id="arrow">	<span>↓</span></button>
+
+    <div id="pagepiling">
+        <div class="section" id="section1">
+            
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                  <h1>Nike Making.</h1>
+    
+                <p>Inspiring the creative community to make sustainable design choices.</p>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                 <h1>Floored.</h1>
+    
+                <p>Clean, modern, and fast. Introducing the new Lexus.com.</p>
+            </div>
+        </div>
+        <div class="section pp-scrollable" id="section4">
+            <div class="content">
+                <div class="header">
+                      <h1>pagePiling.js</h1>
+    
+                    <p>Pile your sections one over another and access them scrolling or by URL!</p>
+                </div>
+                <div class="page">
+                    <p>Eos ex tale consul phaedrum. Ex mel enim delectus. An stet vide copiosae mei. Ne ferri oportere accusamus sit, eum an stet solet. Ex maiestatis dissentiet eum. An pro recteque intellegam, eum convenire contentiones te. Cum id nobis mediocritatem. Brute dicta putent no vel. Pro ad verear eripuit vituperatoribus. Vim ad utamur accusata recteque, an cum iriure scriptorem. Ei suas democritum sed, ceteros omittam eos et. Case eius ne vix, duo ne autem saperet insolens, mel posse aperiam labores no. Alienum accusamus an est. Qui iudicabit intellegat percipitur in, est in agam fugit assueverit. Pro cu mazim oporteat, soluta vituperata instructior mei ea, an vix sonet vocent laboramus. Vis vocent ocurreret ad. Congue causae iisque no mei, vim fastidii platonem iracundia ei, detraxit sadipscing usu eu. Est ei sonet tempor dicunt. In tota regione blandit sea, at nec numquam dissentias, eu sit sapientem evertitur. Suas mediocrem incorrupte vel ei, intellegebat reprehendunt eum ad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('./template/aos') -%>
   </body>
 </html>
