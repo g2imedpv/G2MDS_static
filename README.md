@@ -1,4 +1,4 @@
 # G2MDS_static
 static pages work with Express.js
 
-Processing
+DEBUG=G2MDS_static:* npm start
