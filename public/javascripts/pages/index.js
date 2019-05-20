@@ -2,11 +2,11 @@
  * Plugin intialization
  */
 $( document ).ready(function() {
-    
+
     $('#pagepiling').pagepiling({
         verticalCentered: false,
-        css3: false,
-        sectionsColor: ['white', '#E8E8E8', '#f2f2f2', '#EC008C'],
+        css3: true,
+        sectionsColor: ['white', '#E8E8E8', '#f2f2f2', '#00c6fb'],
         onLeave: function (index, nextIndex, direction) {
 
             //fading out the txt of the leaving section

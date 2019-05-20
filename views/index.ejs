@@ -2,9 +2,9 @@
 <html>
   <head>
     <title><%= title %></title>
-    
+
     <%- include('./template/all') -%>
-    
+
     <!-- Page Required -->
     <link rel='stylesheet' href='/stylesheets/pages/index.css' />
     <script language="javascript" src="/javascripts/pages/index.js"></script>
@@ -13,8 +13,8 @@
 		<link rel="stylesheet" href="/stylesheets/pagepiling/jquery.pagepiling.min.css"/>
     <script language="javascript" src="/javascripts/pagepiling/jquery.min.js"></script>
     <script language="javascript" src="/javascripts/pagepiling/jquery.pagepiling.min.js"></script>
-    
-    
+
+
   </head>
   <body>
     <%- include('./template/header') -%>
@@ -22,59 +22,72 @@
     <button id="arrow" class="animated pulse delay-1s indexscroll">	<span>Scroll Down <i class="fas fa-angle-double-down"></i></span></button>
 
     <div id="pagepiling">
-        <div class="section h-100 d-flex" id="section1">
-            <div class="jumbotron w-50 m-auto text-center">
-              <h1 class="display-4">We Bring the Future to Life</h1>
+        <div class="section h-100 d-flex text-white" id="section1">
+            <div class="jumbotron w-50 m-auto text-center bg-transparent border-0 animated zoomIn">
+              <h1 class="display-4 font-weight-bold">We Bring the Future to Life</h1>
               <p class="lead">G2-MDS is a leading provider of cloud-based software solutions for Pharmacovigilance & Drug Safety, Clinical Development, Regulatory, and Medical Affairs</p>
               <a class="btn btn-outline-primary d-block w-25 mx-auto" href="#" role="button">Learn more</a>
             </div>
         </div>
-        <div class="section h-100 d-flex" id="section2">
-                <div class="card-deck m-auto">
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
+        <div class="section " id="section2">
+            <div class="" style="margin-top: 120px;">
+                <div class="mx-auto text-center w-50">
+                    <h1>The LifeSphere® Platform</h1>
+                    <h6>LifeSphere is an end-to-end life sciences platform, using ArisGlobal’s proprietary Nava® cognitive computing engine to automate all core functions of the drug development process. Offering simple integration with our next-generation LifeSphere EasyDocs document management solution across the product lifecycle, the LifeSphere platform helps life sciences companies reduce time to market, increase compliance and lower drug development costs.</h6>
+                </div>
+                <div class="card-deck mx-auto mt-3 text-center">
+                    <div class="card bg-transparent border-0 mx-4">
+                    <i class="fas fa-layer-group fa-8x mx-auto mt-4"></i>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Clinical Development</h5>
+                        <p class="card-text">End-to-end cloud platform that seamlessly links clinical operations and clinical data management via unified architecture; designed for easy integration with our LifeSphere Regulatory solutions.</p>
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
                     </div>
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
+                    <div class="card bg-transparent border-0 mx-4">
+                    <i class="fab fa-critical-role fa-8x mx-auto mt-4"></i>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Regulatory</h5>
+                        <p class="card-text">Comprehensive RIMS platform – including our new Publishing solution – providing a single source of truth across the entire regulatory organization and compliance with xEVMPD and IDMP standards.</p>
+                    </div>
+                    </div>
+                    <div class="card bg-transparent border-0 mx-4">
+                    <i class="fas fa-user-shield fa-8x mx-auto mt-4"></i>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Safety</h5>
+                        <p class="card-text">Next-generation platform for intelligent, machine-learning enhanced processing of adverse events and individual case safety reports; from automated intake to advanced signal detection and risk management.</p>
+                    </div>
+                    </div>
+                    <div class="card bg-transparent border-0 mx-4">
+                    <i class="fas fa-user-md fa-8x mx-auto mt-4"></i>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Medical Affairs</h5>
+                        <p class="card-text">The only platform to support all medical information functions within a single integrated workspace, providing a unified solution for inquiry receipt, fulfillment, adverse events, product complaints, and reporting.</p>
+                    </div>
+                    </div>
+                    <div class="card bg-transparent border-0 mx-4">
+                    <i class="fas fa-award fa-8x mx-auto mt-4"></i>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Quality</h5>
+                        <p class="card-text">Our newest offering, built from the ground up on LifeSphere’s cloud architecture and providing industry-leading capabilities across product complaints and quality management. Arriving Summer 2019.</p>
+                    </div>
                     </div>
                 </div>
+            </div>
         </div>
         <div class="section" id="section3">
             <div class="intro">
                  <h1>Floored.</h1>
-    
+
                 <p>Clean, modern, and fast. Introducing the new Lexus.com.</p>
             </div>
         </div>
         <div class="section pp-scrollable" id="section4">
-            <div class="content">
-                <div class="header">
+                <div class="">
                       <h1>pagePiling.js</h1>
-    
+
                     <p>Pile your sections one over another and access them scrolling or by URL!</p>
                 </div>
-                <div class="page">
-                    <p>Eos ex tale consul phaedrum. Ex mel enim delectus. An stet vide copiosae mei. Ne ferri oportere accusamus sit, eum an stet solet. Ex maiestatis dissentiet eum. An pro recteque intellegam, eum convenire contentiones te. Cum id nobis mediocritatem. Brute dicta putent no vel. Pro ad verear eripuit vituperatoribus. Vim ad utamur accusata recteque, an cum iriure scriptorem. Ei suas democritum sed, ceteros omittam eos et. Case eius ne vix, duo ne autem saperet insolens, mel posse aperiam labores no. Alienum accusamus an est. Qui iudicabit intellegat percipitur in, est in agam fugit assueverit. Pro cu mazim oporteat, soluta vituperata instructior mei ea, an vix sonet vocent laboramus. Vis vocent ocurreret ad. Congue causae iisque no mei, vim fastidii platonem iracundia ei, detraxit sadipscing usu eu. Est ei sonet tempor dicunt. In tota regione blandit sea, at nec numquam dissentias, eu sit sapientem evertitur. Suas mediocrem incorrupte vel ei, intellegebat reprehendunt eum ad.</p>
-                </div>
-            </div>
         </div>
     </div>
 
