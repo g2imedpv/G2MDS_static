@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%- include('./template/all') -%>
+    <!-- <link rel='stylesheet' href='/stylesheets/pages/about.css' /> -->
+    <style>
+    body {
+      background-attachment: fixed;
+      background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+      color: white;
+    }
+      </style>
+  </head>
+  <body>
+
+        <%- include('./template/header') -%>
+
+        <div class="my-5 px-5 bg-transparent">
+            <h1 class="display-4 px-5">Professional Services</h1>
+            <p class="lead px-5">Leverage our experienced services team</p>
+            <hr class="w-25 ml-5" style="border: 1px solid white;">
+        </div>
+
+        <p class="lead mx-auto w-75 my-5">
+            Any software solution whether deployed on-premise or in the cloud is only as good as the services that allow you to maximise your investment in the product.
+            <br><br>
+            G2-MDS has an experienced services team with a wealth of expertise and experience. With regional support locations in the US, Europe, Japan and India, G2-MDS is strategically located to assist with any implementation, anywhere in the world. Our teams provide a wide range of services including:
+        </p>
+
+        <div class="card-deck mx-auto mt-2 text-center animated zoomIn">
+            <div class="card bg-card border-0 mx-4 bg-transparent">
+            <i class="fab fa-windows fa-6x mx-auto mt-4"></i>
+            <div class="card-body">
+                <h5 class="card-title font-weight-bold">System configuration</h5>
+                <p class="card-text">Services related to analysis and configuration of IT systems from G2-MDS to meet the business requirements of the customer and aid in configuring the solution per industry standards.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+            </div>
+            <div class="card bg-card border-0 mx-4 bg-transparent">
+            <i class="fas fa-certificate fa-6x mx-auto mt-4"></i>
+            <div class="card-body">
+                <h5 class="card-title font-weight-bold">System validation</h5>
+                <p class="card-text">Validation services to draft validation scripts, related artifacts and perform validation testing per industry standards, like GAMP, to qualify the end to end solution. Also includes validation of external systems as well as interfaces used for data exchange.</p>
+            </div>
+            </div>
+            <div class="card bg-card border-0 mx-4 bg-transparent">
+            <i class="fas fa-database fa-6x mx-auto mt-4"></i>
+            <div class="card-body">
+                <h5 class="card-title font-weight-bold">Data migration                  </h5>
+                <p class="card-text">Data migration services include data assessment, data mapping between source and target systems, data enrichment, data cleansing, data migration, data entry, define data collection and maintenance processes. This service also includes the end to end testing and validation of data migrated into G2-MDS solutions.</p>
+            </div>
+            </div>
+            <div class="card bg-card border-0 mx-4 bg-transparent">
+            <i class="fas fa-network-wired fa-6x mx-auto mt-4"></i>
+            <div class="card-body">
+                <h5 class="card-title font-weight-bold">Systems integration</h5>
+                <p class="card-text">Services related to system integration using state of the art integration technologies for various types of systems like RDBMS, ERP, legacy systems etc. for data exchange through real time interfaces.</p>
+            </div>
+            </div>
+            <div class="card bg-card border-0 mx-4 bg-transparent">
+            <i class="fas fa-poll fa-6x mx-auto mt-4"></i>
+            <div class="card-body">
+                <h5 class="card-title font-weight-bold">Report development                  </h5>
+                <p class="card-text">Design and develop analytics solution to meet the reporting requirements of our customers using technologies like BO, BIRT and other data warehouse solutions.                  </p>
+            </div>
+            </div>
+        </div>
+
+
+
+      <%- include('./template/aos') -%>
+  </body>
+</html>

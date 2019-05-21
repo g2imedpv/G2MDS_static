@@ -6,7 +6,12 @@ $( document ).ready(function() {
     $('#pagepiling').pagepiling({
         verticalCentered: false,
         css3: true,
-        sectionsColor: ['white', '#E8E8E8', '#f2f2f2', '#00c6fb'],
+        navigation: {
+            'textColor': '#ffffff',
+            'bulletsColor': '#909295',
+            'position': 'right',
+            // 'tooltips': ['section1', 'section2', 'section3', 'section4']
+        },
         onLeave: function (index, nextIndex, direction) {
 
             //fading out the txt of the leaving section
