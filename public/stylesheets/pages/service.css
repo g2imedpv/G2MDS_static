@@ -1,0 +1,10 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+    color: white;
+}
+
+.title {
+    margin-top: 90px;
+}
