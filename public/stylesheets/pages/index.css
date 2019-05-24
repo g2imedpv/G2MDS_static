@@ -14,17 +14,17 @@ body {
     background-size: cover;
 }
 #section1 {
-    background-image: url(/images/17263.jpg);
+    background-image: url(/images/front1.jpg);
     /* background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%); */
 }
 #section2 {
-    background-image: url(/images/17266.jpg);
+    background-image: url(/images/front2.jpg);
 }
 #section3 {
-    background-image: url(/images/327.jpg);
+    background-image: url(/images/front3.jpg);
 }
 #section4  {
-    background-image: url(/images/17844.jpg);
+    background-image: url(/images/front4.jpg);
 }
 /* Arrow
 	 * --------------------------------------- */

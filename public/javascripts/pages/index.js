@@ -35,7 +35,7 @@ $( document ).ready(function() {
 
             //leaving our last section? The one with our normal site?
             if (index == 4) {
-                $('#arrow').show();
+                $('#arrow').delay(800).fadeIn();
 
                 //fadding in navigation bullets
                 $('#pp-nav').fadeIn();
