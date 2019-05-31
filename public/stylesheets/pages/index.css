@@ -75,10 +75,10 @@ body {
 }
 
 .title {
-    margin-top: 90px;
+    margin-top: 190px;
+    font-size: 20px;
 }
 
 .cliRev {
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    height: 240px;
 }

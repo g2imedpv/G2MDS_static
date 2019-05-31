@@ -14,6 +14,9 @@ $( document ).ready(function() {
         },
         onLeave: function (index, nextIndex, direction) {
 
+            $('.section').eq(nextIndex - 1).find('#testing').addClass('animated zoomIn');
+
+
             //fading out the txt of the leaving section
             $('.section').eq(index - 1).find('h1, p').fadeOut(700, 'easeInQuart');
 
