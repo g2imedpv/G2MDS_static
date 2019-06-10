@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET Home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'G2-MDS Home' });
+  res.render('index', { title: 'G2-MDS' });
 });
 
 /* GET Service page */

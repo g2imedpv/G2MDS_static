@@ -14,8 +14,16 @@ $( document ).ready(function() {
         },
         onLeave: function (index, nextIndex, direction) {
 
-            $('.section').eq(nextIndex - 1).find('#testing').addClass('animated zoomIn');
+            $('.section').eq(nextIndex - 1).find('#sc2text').addClass('animated bounceInLeft');
+            $('.section').eq(index - 1).find('#sc2text').removeClass('animated bounceInLeft');
+            $('.section').eq(nextIndex - 1).find('#sc2pic').addClass('animated bounceInRight');
+            $('.section').eq(index - 1).find('#sc2pic').removeClass('animated bounceInRight');
 
+            $('.section').eq(nextIndex - 1).find('#feaTop').addClass('animated fadeInUp');
+            $('.section').eq(index - 1).find('#feaTop').removeClass('animated fadeInUp');
+            
+            $('.section').eq(nextIndex - 1).find('#feaDown').addClass('animated fadeInUp delay-1s');
+            $('.section').eq(index - 1).find('#feaDown').removeClass('animated fadeInUp');
 
             //fading out the txt of the leaving section
             $('.section').eq(index - 1).find('h1, p').fadeOut(700, 'easeInQuart');

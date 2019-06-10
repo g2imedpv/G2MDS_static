@@ -24,7 +24,7 @@ body {
     background-image: url(/images/front3.jpg);
 }
 #section4  {
-    background-image: url(/images/front4.jpg);
+    background-image: url(/images/jj.png);
 }
 /* Arrow
 	 * --------------------------------------- */
@@ -71,14 +71,33 @@ body {
 }
 
 .bg-card {
-    background: rgba(10, 53, 95, 0.6);
+    background: #343a4040;
 }
 
-.title {
-    margin-top: 190px;
+.titleFont {
+    font-family: 'Merriweather', serif;
+}
+
+.textFont {
+    font-family: 'Spectral', serif;
+}
+
+.indexTitle {
+    font-size: 72px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.indexText {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.featureText {
     font-size: 20px;
 }
 
-.cliRev {
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+.iconsize {
+    width: 70px;
 }
+
