@@ -9,3 +9,24 @@
 a  {
     color: white !important;
 }
+
+.logoholder {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 30px;
+    height: 35px;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+}
+
+.logoholder:hover {
+    width: 100px;
+}
+
+.holder {
+    color: white;
+    /* display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+    transition: 0.3s; */
+}

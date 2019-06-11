@@ -19,11 +19,12 @@ $( document ).ready(function() {
             $('.section').eq(nextIndex - 1).find('#sc2pic').addClass('animated bounceInRight');
             $('.section').eq(index - 1).find('#sc2pic').removeClass('animated bounceInRight');
 
-            $('.section').eq(nextIndex - 1).find('#feaTop').addClass('animated fadeInUp');
-            $('.section').eq(index - 1).find('#feaTop').removeClass('animated fadeInUp');
+            $('.section').eq(nextIndex - 1).find('#fea').addClass('animated fadeInUp');
+            $('.section').eq(index - 1).find('#fea').removeClass('animated fadeInUp');
             
-            $('.section').eq(nextIndex - 1).find('#feaDown').addClass('animated fadeInUp delay-1s');
-            $('.section').eq(index - 1).find('#feaDown').removeClass('animated fadeInUp');
+            $('.section').eq(nextIndex - 1).find('#sec4').addClass('color-change-2x');
+            
+            $('.section').eq(nextIndex - 1).find('#endTitle').addClass('animated fadeInUp delay-3s');
 
             //fading out the txt of the leaving section
             $('.section').eq(index - 1).find('h1, p').fadeOut(700, 'easeInQuart');
@@ -58,7 +59,7 @@ $( document ).ready(function() {
         },
     });
 
-    $('#arrow').click(function () {
+    $('#arrow, #learn').click(function () {
         $.fn.pagepiling.moveSectionDown();
     });
 
