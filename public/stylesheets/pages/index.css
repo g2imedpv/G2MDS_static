@@ -74,14 +74,6 @@ body {
     background: #343a4040;
 }
 
-.titleFont {
-    font-family: 'Merriweather', serif;
-}
-
-.textFont {
-    font-family: 'Spectral', serif;
-}
-
 .indexTitle {
     font-size: 72px;
     line-height: 1.2em;

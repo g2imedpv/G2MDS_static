@@ -13,20 +13,33 @@ a  {
 .logoholder {
     overflow: hidden;
     white-space: nowrap;
-    width: 30px;
-    height: 35px;
-    transition: width 2s;
-    -webkit-transition: width 2s;
+    width: 65px;
+    height: 55px;
+    cursor: pointer;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    position: relative;
 }
 
 .logoholder:hover {
-    width: 100px;
+    width: 240px;
 }
 
 .holder {
     color: white;
+    font-size: 50px;
+    position: absolute;
+    top: -10px;
     /* display: inline-block;
     vertical-align: bottom;
     overflow: hidden;
     transition: 0.3s; */
+}
+
+.titleFont {
+    font-family: 'Merriweather', serif;
+}
+
+.textFont {
+    font-family: 'Spectral', serif;
 }
