@@ -14,8 +14,13 @@
     /* background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%); */
 }
 #section2 {
-    background-image: url(/images/front2.jpg);
+    background-color: white;
 }
+
+.sec2col2bg {
+    background-color: #007bff5c;
+}
+
 #section3 {
     background-image: url(/images/front3.jpg);
 }
